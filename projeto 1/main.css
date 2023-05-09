@@ -84,6 +84,22 @@ section h2 {
     font-size:  32px;
 }
 
+#entertainment {
+    background-color: rgba(4, 92, 255, 0.315);
+}
+
+#entertainment .articles article a {
+    background-color: #000294;
+}
+
+#technology {
+    background-color: rgba(255, 176, 4, 0.315);
+}
+
+#technology .articles article a {
+    background-color: #940000;
+}
+
 #sports {
     background-color: rgba(0, 255, 0, 0.1);
 }
