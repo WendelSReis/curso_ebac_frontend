@@ -26,9 +26,13 @@ Para executar esse frontend basta abrir o arquivo index.html em um navegador web
 Se você quiser contribuir com esse projeto, basta seguir os passos abaixo:
 
 Faça um fork desse repositório.
+
 Crie uma nova branch com suas modificações: git checkout -b my-feature.
+
 Commit suas modificações: git commit -m "Feature: My new feature".
+
 Envie suas modificações para o seu fork: git push origin my-feature.
+
 Faça um pull request para esse repositório.
 
 # Autor
