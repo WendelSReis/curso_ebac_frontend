@@ -1,1 +1,3 @@
-console.log("Olá mundo")
+const form = document.getElementById('form-deposito');
+
+console.log(form);
