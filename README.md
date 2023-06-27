@@ -2,8 +2,6 @@
 
 Esse é um projeto do curso de frontend da EBAC criado com HTML, CSS e JavaScript. Esse projeto foi desenvolvido para fins educacionais e pode ser utilizado como base para projetos mais complexos.
 
-Site publicado do projeto: https://curso-ebac-frontend-ruddy.vercel.app/
-
 # Funcionalidades
 
 Esse frontend conta com as seguintes funcionalidades:
