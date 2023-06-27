@@ -1,0 +1,11 @@
+.message {
+    margin-top: 10px;
+}
+
+.message.positive {
+    color: green;
+}
+
+.message.negative {
+    color: red;
+}
