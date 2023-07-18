@@ -10,39 +10,41 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
-        <img src="./images/logo.png" alt="capelo e diploma">
-        <h1>Calculadora de médias</h1>
-    </header>
-    <form>
-        <input type="text" required placeholder="Nome da atividade">
-        <input type="number" required placeholder="Nota da atividade" min="0" max="10" />
-        <button type=" submit">Adicionar +</button>
-    </form>
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    Nome da atividade
-                </th>
-                <th>Nota da atividade</th>
-                <th>Aprovado?</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Atividade 1</td>
-                <td>7</td>
-                <td><img src="./images/aprovado.png" alt="Emoji festejando" /></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Média final</td>
-                <td>7</td>
-                <td>Aprovado</td>
-            </tr>
-        </tfoot>
-    </table>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="capelo e diploma">
+            <h1>Calculadora de médias</h1>
+        </header>
+        <form>
+            <input type="text" required placeholder="Nome da atividade">
+            <input type="number" required placeholder="Nota da atividade" min="0" max="10" />
+            <button type=" submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome da atividade
+                    </th>
+                    <th>Nota da atividade</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atividade 1</td>
+                    <td>7</td>
+                    <td><img src="./images/aprovado.png" alt="Emoji festejando" /></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Média final</td>
+                    <td>7</td>
+                    <td>Aprovado</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
