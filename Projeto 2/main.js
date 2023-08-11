@@ -1,4 +1,6 @@
 const form = document.getElementById('form-atividade');
+let linhas = '';
+
 form.addEventListener('submit', function(e){
     e.preventDefault();
 
@@ -9,8 +11,10 @@ form.addEventListener('submit', function(e){
     linha += `<tr>${inputNomeAtividade.value}</tr>`;
     linha += `<tr>${inputNotaAtividade.value}</tr>`;
     linha += `<tr>${inputNotaAtividade >= 7 ? 'Aprovado' : 'Reprovado'}</tr>`;
-    linha += '</tr>'
+    linha += '</tr>';
+
+    linhas += linha;
 
     const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHTML = linha;
+    corpoTabela.innerHTML = linhas;
 });
