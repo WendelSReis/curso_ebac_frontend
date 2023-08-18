@@ -93,25 +93,25 @@ section h2 {
 }
 
 #technology {
-    background-color: rgba(255, 176, 4, 0.315);
+    background-color: rgba(110, 75, 0, 0.315);
 }
 
 #technology .articles article a {
-    background-color: #940000;
+    background-color: #7c0707;
 }
 
 #sports {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: rgba(0, 126, 0, 0.1);
 }
 
 #sports .articles article a {
-    background-color: #009432;
+    background-color: #144e27;
 }
 
 #economy {
-    background-color: #f8f59f;
+    background-color: #b4b025;
 }
 
 #economy .articles article a {
-    background-color: #ff9f1a;
+    background-color: #b3741d;
 }
