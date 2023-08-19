@@ -11,6 +11,7 @@ form.addEventListener('submit', function(e){
 
     adicionaLinha();
     atualizaTabela();
+    atualizaMediaFinal();
 });
 
 function adicionaLinha() {
@@ -18,7 +19,7 @@ function adicionaLinha() {
     const inputNotaAtividade = document.getElementById('nota-atividade');
 
     atividades.push(inputNomeAtividade.value);
-    notas.push(inputNotaAtividade.value);
+    notas.push(parseFloat(inputNotaAtividade.value));
 
     let linha = '<tr>';
     linha += `<tr>${inputNomeAtividade.value}</tr>`;
@@ -38,6 +39,19 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal(){
-    console.log(atividades);
-    console.log(notas);
+    const mediaFinal = calculaMediaFinal();
+
+    console.log(media);
+}
+
+function calculaMediaFinal(){
+    let somaDasNotas = 0;
+
+    for (let i =0; i < notas.length; i++){
+        somaDasNotas += notas[i];
+    }
+
+    const media = somaDasNotas / notas.length;
+
+    return media;
 }
