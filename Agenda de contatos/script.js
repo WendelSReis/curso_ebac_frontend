@@ -10,5 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const nome = nomeInput.value;
         const telefone = telefoneInput.value;
 
+        if (nome && telefone) {
+            const newRow = tabelaContatos.insertRow();
+            const cellNome = newRow.insertCell(0);
+            const cellTelefone = newRow.insertCell(1);
+
+            cellNome.textContent = nome;
+            cellTelefone.textContent = telefone;
+
+            nomeInput.value = '';
+            telefoneInput.value = '';
+        }
     });
 });
