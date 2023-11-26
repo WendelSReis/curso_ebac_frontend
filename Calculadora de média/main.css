@@ -47,7 +47,6 @@ form input {
     border-bottom: 2px solid #000;
     padding: 8px;
 }
-
 form button {
     background-color: #009432;
     color: #fff;
@@ -57,29 +56,24 @@ form button {
     cursor: pointer;
     padding: 8px;
 }
-
 table {
     width: 100%;
 }
-
 table th {
     border-bottom: 2px solid #000;
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
 }
-
 table td {
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 table td img {
     height: 30px;
 }
-
 .resultado {
     padding: 8px;
     font-weight: bold;
@@ -87,11 +81,9 @@ table td img {
     background-color: #000;
     border-radius: 3px;
 }
-
 .aprovado {
     background-color: #009432;
 }
-
 .reprovado {
     background-color: red;
 }
